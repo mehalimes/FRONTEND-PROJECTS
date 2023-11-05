@@ -1,0 +1,129 @@
+/* AUTHOR : mehalimes */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+/* font-family: 'Fraunces', serif; */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: #f3eae3;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    background-color: #f3eae3;
+    width: 597px;
+    height: 443px;
+    display: flex;
+    --webkit-flex-direction: row;
+}
+
+#sub-container-1 {
+    background-color: #f3eae3;
+    width: calc(597px / 2);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#sub-container-2 {
+    background-color: #f3eae3;
+    width: calc(597px / 2);
+    border-top-right-radius: 30px;
+}
+
+h3 {
+    width: calc(597px / 2);
+    background-color:#ffffff;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    border-top-right-radius: 30px;
+}
+
+h1 {
+    width: calc(597px / 2);
+    background-color: #fff;
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: 'Fraunces', serif;
+    color: #181f27;
+    font-weight: 700;
+}
+
+p {
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #fff;
+}
+
+div#price {
+    background-color: #fff;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+#span-1 {
+    background-color: #fff;
+    line-height: 75px;
+    padding-right: 15px;
+    padding-left: 25px;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    color: #3a7e65;
+    font-weight: 700;
+}
+
+#span-2 {
+    background-color: #fff;
+    line-height: 75px;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+div#button-div {
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    padding-bottom: 20px;
+}
+
+button {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #1a4031;
+    border: none;
+    color: #fffffd;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#inner-span {
+    padding-left: 10px;
+}
+
+#photo {
+    width: 299px;
+    height: 443px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
