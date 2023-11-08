@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+/* white : #f8fdff */
+/* gray : #9bb2d2 */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1a2d;
+}
+
+img#nft-image {
+    height: 302px;
+    width: 302px;
+    border-radius: 8px;
+}
+
+div#container {
+    height: 596px;
+    width: 350px;
+    background-color: #15273f;
+    border-radius: 17px;
+}
+
+div#image-container {
+    background-color: #15273f;
+    height: 361px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+div#h2 {
+    background-color: #15273f;
+    height: 44px;
+    padding-left: 25px;
+}
+div#h2 > h2 {
+    color: #f8fdff;
+}
+
+div#p {
+    height: 69px;
+    background-color: #15273f;
+    padding-left: 25px;
+}
+
+div#p > p {
+    font-size: 18px;
+    color: #9bb2d2;
+}
+
+div#eth-value {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #15273f;
+}
+
+div#deadline {
+    display: flex;
+    background-color: #15273f;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#result-container {
+    height: 40px;
+    background-color: #15273f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#name-container {
+    background-color: #15273f;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+h3#eth {
+    padding-left: 7px;
+    color: #31ffff;
+}
+
+img#eth-icon {
+    padding-left: 24px;
+}
+
+img#clock-icon {
+    padding-right: 10px;
+}
+
+h3#deadline-text {
+    padding-right: 26px;
+    color: #9bb2d2;
+}
+
+img#avatar {
+    height: 33px;
+    width: 33px;
+    border: 1px solid #eff3fc;
+    border-radius: 50%;
+}
+
+span {
+    padding-left: 17px;
+    color: #9bb2d2;
+}
+
+strong {
+    color: #f8fdff;
+}
+
+hr {
+    margin-left: 23px;
+    width: 304px;
+}
