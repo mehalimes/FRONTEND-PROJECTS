@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0c1b;
+}
+
+div#container {
+    display: flex;
+    flex-direction: row;
+    background-color: #1c1938;
+    width: 1110px;
+    height: 446px;
+    border-radius: 10px;
+}
+
+div#text-container {
+    width: 570px;
+    height: 446px;
+}
+
+div#image-container {
+    height: 446px;
+    width: 540px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #a85cda;
+}
+
+div#sub-container-1 {
+    background-color: #1c1938;
+    height: 336px;
+    border-top-left-radius: 10px;
+}
+
+div#sub-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div#h1-div {
+    height: 151px;
+    width: 570px;
+    background-color: #1c1938;
+    padding-left: 74px;
+    padding-top: 79px;
+    border-top-left-radius: 10px;
+}
+
+div#p-div {
+    height: 143px;
+    width: 570px;
+    background-color: #1c1938;
+    padding-left: 72px;
+    padding-top: 34px;
+}
+
+div#one {
+    width: 219px;
+    background-color: #1c1938;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 72px;
+    border-bottom-left-radius: 10px;
+}
+
+div#two {
+    width: 139px;
+    background-color: #1c1938;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+div#three {
+    background-color: #1c1938;
+    height: 110px;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, p, h3, span {
+    color: #fefffd;
+    font-family: 'Inter', sans-serif;
+}
+
+.desc {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    opacity: 0.4;
+}
+
+span#inner-span {
+    color: #b264dc;
+}
+
+p {
+    opacity: 0.4;
+    line-height: 29px;
+}
+
+img {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.7;
+}
