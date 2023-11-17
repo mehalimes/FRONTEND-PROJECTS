@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+div#container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    width: 920px;
+    height: 500px;
+    border-radius: 8px;
+}
+
+div#one {
+    background-color: #e28525;
+    width: calc(920px / 3);
+    height: 500px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+div#two {
+    background-color: yellow;
+    width: calc(920px / 3);
+    height: 500px;
+}
+
+div#three {
+    background-color: #00403f;
+    width: calc(920px / 3);
+    height: 500px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.image-container {
+    height: 130px;
+    background-color: red;
+    padding-left: 48px;
+    padding-top: 49px;
+}
+
+.h1-container {
+    height: 76px;
+    background-color: yellowgreen;
+    padding-left: 48px;
+}
+
+.p-container {
+    height: 198px;
+    padding-left: 48px;
+}
+
+.button-container {
+    height: 96px;
+    padding-left: 48px;
+}
+
+.button-container > button {
+    height: 48px;
+    width: 146px;
+    border-radius: 22px;
+    border: none;
+    transition: 0.6s;
+}
+
+.image-container.first {
+    background-color: #e28525;
+    border-top-left-radius: 8px;
+}
+
+.h1-container.first {
+    background-color: #e28525;
+}
+
+.image-container.second {
+    background-color: #016972;
+}
+
+.h1-container.second {
+    background-color: #016972;
+}
+
+.p-container.second {
+    background-color: #016972;
+}
+
+.button-container.second {
+    background-color: #016972;
+}
+
+.image-container.third {
+    background-color: #00403f;
+    border-top-right-radius: 8px;
+}
+
+.h1-container.third {
+    background-color: #00403f;
+}
+
+.p-container.third {
+    background-color: #00403f;
+}
+
+.button-container.third {
+    background-color: #00403f;
+    border-bottom-right-radius: 8px;
+}
+
+.button-container.first > button {
+    color: #e28525;
+}
+
+.button-container.second > button {
+    color: #016972;
+}
+
+.button-container.third > button {
+    color: #00403f;
+}
+
+.h1-container > h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+    color: #feffff;
+    letter-spacing: 2px;
+}
+
+.p-container > p {
+    color: #feffff;
+    opacity: 0.6;
+    line-height: 25px;
+}
+
+.button-container > button:hover {
+    border: 2px solid #feffff;
+}
+
+.button-container.first > button:hover {
+    background-color: #e28525;
+    color: #feffff;
+}
+
+.button-container.second > button:hover {
+    background-color: #016972;
+    color: #feffff;
+}
+
+.button-container.third > button:hover {
+    background-color:#00403f;
+    color: #feffff;
+}
+
+@media screen and (max-width : 575px) {
+    div#container {
+        width: 306.66px;
+        height: 1626px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    div#one, div#two, div#three, .image-container, .button-container {
+        border-radius: 0;
+    }
+    div#one, .image-container.first {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    div#three, .button-container.third {
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+}
