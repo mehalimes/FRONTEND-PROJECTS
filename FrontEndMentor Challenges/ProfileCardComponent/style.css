@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #19a1ad;
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-position: -50% 200%, 150% -150%;
+    background-repeat: no-repeat, no-repeat;
+}
+
+div#container {
+    height: 374px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+div#sub-container-2 {
+    width: 350px;
+    height: 88px;
+    display: flex;
+    flex-direction: row;
+}
+
+div#one, div#two, div#three {
+    width: calc(350px / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#sub-container-1 {
+    height: 285px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./images/bg-pattern-card.svg");
+    background-size: 350px 140px;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+div#image-container {
+    background-color: #fff;
+    width: 106px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+div#image-container > img {
+    border-radius: 50%;
+}
+
+h2#name {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 42px;
+    color: #1a1a24;
+}
+
+h4#city {
+    display: flex;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+span, hr, h5, h4#city {
+    color: #747476;
+    opacity: 0.6;
+}
+
+h5 {
+    padding-top: 3px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: #1a1a24;
+}
+
+hr {
+    opacity: 0.2;
+}
