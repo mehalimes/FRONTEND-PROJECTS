@@ -1,0 +1,48 @@
+.faq-item-container {
+
+    width: 516px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+}
+
+.faq-item-container > div#first {
+    width: 492px;
+    line-height: 77px;
+}
+.faq-item-container > div#second {
+    width: calc(516px - 492px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #1d111f;
+}
+
+hr {
+    height: 2px;
+    width: 516px;
+    color: #fafafa;
+}
+p {
+    font-size: 16px;
+    color: #726b73;
+}
+
+.unvisible {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
