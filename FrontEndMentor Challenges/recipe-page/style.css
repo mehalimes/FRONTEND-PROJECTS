@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    color: #2d2d2d;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 656px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 23px;
+    margin-top: 10px;
+}
+
+main#container {
+    height: 1808px;
+    width: 736px;
+    background-color: #fff;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.line.big {
+    width: 656px;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin-bottom: 15px;
+}
+
+div.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.line.small {
+    width: 656px;
+    height: 1px;
+    background-color: #e0e0e0;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', sans-serif;
+}
+
+h2 {
+    color: #884735;
+    width: 656px;
+    padding-bottom: 35px;
+}
+
+div.second {
+    font-weight: 600;
+    color: #6b2847;
+}
+
+span {
+    font-weight: 600;
+}
+
+h3 {
+    color: purple;
+    padding-left: 29px;
+    padding-top: 30px;
+}
+
+h1 {
+    width: 656px;
+    margin-bottom: 25px;
+}
+
+p#intro {
+    width: 656px;
+    margin-bottom: 28px;
+}
+
+div#info {
+    width: 656px;
+    background-color: #fff7fc;
+    height: 179px;
+    border-radius: 17px;
+    margin-bottom: 28px;
+}
+
+ul#info-ul {
+    margin-left: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: column;
+    padding-top: 10px;
+    height: 100px;
+}
+
+ul#info-ul > li {
+    padding-left: 32px;
+}
+
+ul#ingredients {
+    width: 656px;
+    margin-left: 40px;
+}
+
+ul#ingredients > li {
+    padding-left: 28px;
+    margin-bottom: 24px;
+}
+
+ol#instructions {
+    width: 656px;
+    margin-left: 40px;
+}
+
+ol#instructions > li {
+    padding-left: 23px;
+    margin-bottom: 25px;
+}
+
+p#nutrition-p {
+    width: 656px;
+}
+
+div.first, div.second {
+    width: calc(656px / 2);
+    padding-left: 33px;
+    margin-bottom: 17px;
+    margin-top: 22px;
+}
